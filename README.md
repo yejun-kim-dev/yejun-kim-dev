@@ -14,6 +14,9 @@
 
 ---
 
-### 📚 [BookELog] 독서 기록 및 모임 플랫폼
-- **담당 역할:** 백엔드 / 프론트엔드 개발
-- 🔗 [BookELog GitHub Repository](https://github.com/Line4-13th/BookELog-Back)
+### 📚 [BookELog] 독서 기록 및 모임 플랫폼 (4호선톤 Hackathon)
+- **주요 역할:** **UI/UX 기획 및 디자인** (Figma, Notion 활용)
+- **주요 기여:**
+  - 사용자 중심의 독서 기록 흐름 설계 및 와이어프레임 제작 (Figma)
+  - 서비스 기획안 작성 및 아이디어 구체화 (Notion)
+- 🔗 [Frontend Repository](https://github.com/Line4-13th/BookELog-Front) | [Backend Repository](https://github.com/Line4-13th/BookELog-Back)
