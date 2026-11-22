@@ -1,47 +1,111 @@
-# 👋 안녕하세요, 기획부터 개발까지 연결하는 개발자 김예준입니다!
+# Kim Yejun
 
-> Service Planning & Design (Figma, Notion) 🤝 Backend & Frontend Development (Python, React, Unity)
+**AI Engineer · Backend**
+LLM 서비스와 데이터 흐름을 설계하고 구현합니다.
 
----
+**Contact** · [eunjun6570@gmail.com](mailto:eunjun6570@gmail.com) · [GitHub](https://github.com/yejun-kim-dev)
 
-## 🚀 Projects
+<br>
 
-### 🏝️ [Ezpage] 해외 여행자를 위한 스마트 환율/통화 관리 서비스
-- **개발 기간:** 2025.03 - 2025.06
-- **주요 역할:** **백엔드(Backend) API 설계 및 DB 구축**
-- **소개:** 해외 여행자가 현지에서 통화 가치를 직관적으로 이해하고 지불을 돕는 앱
-- **링크:** 
-  - 🛠️ [Sungshin-Capstone Organization 바로가기](https://github.com/Sungshin-Capstone)
-  - 🔗 [Backend Repository](https://github.com/Sungshin-Capstone/ezpage_Backend) | [Frontend](https://github.com/Sungshin-Capstone/ezpage_Frontend) | [AI](https://github.com/Sungshin-Capstone/ezpage_AI)
+## Tech Stack
 
----
+| | |
+|---|---|
+| **AI / LLM** | LangChain, LangGraph, Gemini API |
+| **Backend** | Python, Django REST Framework, Node.js (Express) |
+| **Data** | MySQL, PostgreSQL, Supabase |
+| **Frontend** | React, TypeScript, Streamlit |
+| **Design** | Figma |
 
-### ✈️ [AI Trip Mate] AI 기반 대화형 여행 일정 추천 서비스
-- **주요 역할:** **서비스 기획, UI/UX 디자인 & 프론트엔드(Frontend) 개발**
-- **소개:** 사용자 대화를 분석하여 맞춤형 여행 코스 및 일정을 추천하는 AI 대화형 서비스
-- **기술 스택:** React, Flask, Gemini API, Figma
+<br>
 
----
+## Featured Projects
 
-### 📚 [BookELog] 독서 기록 및 모임 플랫폼 (4호선톤 Hackathon)
-- **주요 역할:** **UI/UX 기획 및 디자인**
-- **주요 기여:** 사용자 중심의 독서 기록 와이어프레임 설계 및 모바일 UI 디자인 (Figma, Notion)
-- **링크:** 🔗 [BookELog Repositories](https://github.com/Line4-13th)
+### AI Trip Mate
+**대화형 AI 여행 일정 추천 서비스** · 2025.10 – 2025.12 · 팀 프로젝트 (PM)
 
----
+사용자와 대화하며 국가·지역·날짜·동반자에 맞는 여행 일정을 만들어 주는 서비스입니다.
 
-### 🔮 [Dreamcatcher] 2024 중앙해커톤 프로젝트
-- **주요 역할:** **서비스 기획 및 UI/UX 디자인**
-- **주요 기여:** 해커톤 아이디에이션, 서비스 흐름도 설계 및 디자인 시스템 구축 (Figma)
+- PM으로 서비스 기획과 일정 관리, 프론트엔드·백엔드·AI 기능 전체 연결 담당
+- LangChain 기반 여행 챗봇 개발 및 Gemini API 연동
+- 이전 대화를 기억해 답변에 반영하는 대화 기억(memory) 시스템 구현
+- 대화 내용으로 여행 코스를 자동 생성하는 기능 구현
+- Supabase DB 연동, 여행 생성·편집 화면 구현
 
----
+`React` `TypeScript` `Express` `LangChain` `LangGraph` `Gemini API` `Supabase`
+→ [Repository](https://github.com/yejun-kim-dev/ai-trip-mate)
 
-### 🥽 [궁중연화] 가상융합서비스 개발자 경진대회 VR 콘텐츠
-- **주요 역할:** **기획, UI/UX 디자인 & Unity 3D 디자인 요소 적용**
-- **주요 기여:** Unity 기반 VR 공간 기획, UI/UX 디자인 및 3D 에셋 인터랙션 적용
-- **수상:** 🏆 **심스리얼리티 대표상 수상** (2025.10)
+<br>
 
----
+### Ezpage
+**해외 여행자를 위한 AI 환율·결제 도우미 앱** · 2025.03 – 2025.06 · 캡스톤 디자인 (백엔드 담당)
 
-📬 **Contact & Links**
-- **GitHub:** [yejun-kim-dev](https://github.com/yejun-kim-dev)
+메뉴판·지폐를 찍으면 AI가 인식해 원화 가격과 결제 방법을 알려주는 앱입니다.
+앱(Frontend) → 백엔드 → AI 서버(OCR·Gemini) 구조에서 백엔드를 혼자 맡았습니다.
+
+- 회원·여행·지출·지갑 REST API 설계 및 구현 (커밋 165회)
+- AI 스캔 결과(메뉴판 OCR, 화폐 인식)를 받아 지출·지갑 데이터로 저장하는 API 구현
+- 실시간 환율 조회 서비스, 보유 화폐 기반 지불 가이드 결과 반영 및 지갑 차감 로직
+- JWT 인증, PostgreSQL DB 설계, Render 배포
+
+`Django REST Framework` `PostgreSQL` `JWT` `Gunicorn`
+→ [Backend](https://github.com/Sungshin-Capstone/ezpage_Backend) · [Frontend](https://github.com/Sungshin-Capstone/ezpage_Frontend) · [AI](https://github.com/Sungshin-Capstone/ezpage_AI)
+
+<br>
+
+### 짐니 (JIMNI)
+**소형 화물 운송 중개 플랫폼** · 2026.11 · AI 캠프 팀 프로젝트
+
+택배로는 크고 이사로는 작은 짐을 위한 차량 추천·운임 계산·기사 매칭 서비스입니다.
+
+- 운송 조건에 맞는 기사 매칭 로직 구현
+- 카카오 API로 실제 도로 거리를 구해 운임 계산
+- 예약 정보 저장 및 예약번호 발급
+- 플랫폼 수수료 정산 로직 설계
+
+`Python` `MySQL` `Streamlit` `Kakao Map API`
+→ [Repository](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN38-1st-1Team) · [Demo](https://jimni-delivery.streamlit.app/truck-map)
+
+<br>
+
+## Other Projects
+
+| 기간 | 프로젝트 | 역할 | |
+|---|---|---|---|
+| 2025 | 궁중연화 — VR 콘텐츠 (가상융합서비스 개발자 경진대회 장려상) | 기획 · UI/UX · Unity | [기록](projects/2025-gungjung-yeonhwa.md) |
+| 2024.10 – 11 | BookELog — 책 기록 플랫폼 (4호선톤) | 기획 · UI/UX | [기록](projects/2024-bookelog.md) · [Front](https://github.com/Line4-13th/BookELog-Front) · [Back](https://github.com/Line4-13th/BookELog-Back) |
+| 2024.07 – 08 | Dreamcatcher (중앙해커톤) | 기획 · 디자인 | [기록](projects/2024-dreamcatcher.md) · [Demo](https://sae--dreamcatcher2024.netlify.app/) |
+| 2024 | MasterKey — 키오스크 앱 (모바일 프로그래밍) | 팀원 | [Repo](https://github.com/yejun-kim-dev/MasterKey) |
+
+전체 기록은 [Projects Archive](projects/README.md)에서 볼 수 있습니다.
+
+<br>
+
+## Experience
+
+- **성신여자대학교 IT운영팀** 행정 인턴 · 2023.08 – 2024.02
+  교내 PC 100여 대 보안 점검·업데이트, Microsoft 365·포털 관련 사용자 문의 대응
+
+<br>
+
+## Education & Activities
+
+- **성신여자대학교** AI융합학부 AI전공 · 2022.03 – 2027.02 (졸업 예정)
+  주요 수강: 강화학습(SARSA·Q-Learning 구현), LLM 파인튜닝, 클라우드 컴퓨팅
+- **SK네트웍스 Family AI 캠프** 38기 · 2026.10 – 진행 중
+- **멋쟁이사자처럼 대학 12기** 기획·디자인 파트 · 2024.01 – 2024.12 수료 — 중앙해커톤, 4호선톤 참여
+
+<br>
+
+## Certifications
+
+- **2026.06** ADsP (데이터분석 준전문가)
+- **2026.07** 컴퓨터활용능력 2급
+- **2024.08** Microsoft와 함께하는 정보보안 과정 수료 (SC-900 과정, 고용노동부·Microsoft·대한상공회의소)
+
+<br>
+
+## Awards
+
+- **2025.11** 가상융합서비스 개발자 경진대회 장려상 (개발자부문, ㈜심스리얼리티) — 궁중연화
+- **2022.11** 스타트업 메이커톤 우수상
