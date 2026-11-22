@@ -60,10 +60,8 @@ LLM 기반 서비스를 기획부터 구현까지 만듭니다.
 | 기간 | 프로젝트 | 역할 | |
 |---|---|---|---|
 | 2025 | 궁중연화 — VR 콘텐츠 (가상융합서비스 개발자 경진대회 장려상) | 기획 · UI/UX · Unity | [기록](projects/2025-gungjung-yeonhwa.md) |
-| 2024.10 – 11 | BookELog — 책 기록 플랫폼 (4호선톤) | 기획 · UI/UX | [기록](projects/2024-bookelog.md) · [Front](https://github.com/Line4-13th/BookELog-Front) · [Back](https://github.com/Line4-13th/BookELog-Back) |
+| 2024.10 – 11 | BookELog — 책 기록 플랫폼 (4호선톤) | 기획 · UI/UX | [기록](projects/2024-bookelog.md) · [Repo](https://github.com/Line4-13th/BookELog-Front) |
 | 2024.07 – 08 | Dreamcatcher (중앙해커톤) | 기획 · 디자인 | [기록](projects/2024-dreamcatcher.md) · [Demo](https://sae--dreamcatcher2024.netlify.app/) |
-
-전체 기록은 [Projects Archive](projects/README.md)에서 볼 수 있습니다.
 
 <br>
 
