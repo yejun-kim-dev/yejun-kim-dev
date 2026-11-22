@@ -49,7 +49,7 @@ LLM 서비스와 데이터 흐름을 설계하고 구현합니다.
 - JWT 인증, PostgreSQL DB 설계, Render 배포
 
 `Django REST Framework` `PostgreSQL` `JWT` `Gunicorn`
-→ [Backend](https://github.com/Sungshin-Capstone/ezpage_Backend) · [Frontend](https://github.com/Sungshin-Capstone/ezpage_Frontend) · [AI](https://github.com/Sungshin-Capstone/ezpage_AI)
+→ [Ezpage 전체](https://github.com/Sungshin-Capstone) · [Backend](https://github.com/Sungshin-Capstone/ezpage_Backend)
 
 <br>
 
